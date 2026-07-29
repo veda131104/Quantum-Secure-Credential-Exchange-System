@@ -1,0 +1,27 @@
+{
+  "name": "digilocker-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contracts for DigiLocker 2.0",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --network localhost",
+    "deploy:ganache": "truffle migrate --network ganache",
+    "test": "truffle test",
+    "console": "truffle console"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "smart-contracts",
+    "credentials",
+    "pqc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "^5.11.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
