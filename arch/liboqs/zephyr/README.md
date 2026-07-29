@@ -1,4 +1,4 @@
-# Zephyr Project Port
+#  Zephyr Project Port
 
 liboqs can be used as a module for the [Zephyr RTOS](https://www.zephyrproject.org/). 
 
