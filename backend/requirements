@@ -1,0 +1,70 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# Blockchain
+web3==6.15.0
+eth-account==0.11.0
+eth-utils==2.3.1
+
+# IPFS
+# Using latest version with relaxed version checking
+ipfshttpclient>=0.8.0a2
+
+# Post-Quantum Cryptography
+# Note: liboqs-python requires liboqs C library installed
+# Install: https://github.com/open-quantum-safe/liboqs-python
+# pip install git+https://github.com/open-quantum-safe/liboqs-python.git
+liboqs-python
+
+# Biometric / Face Recognition
+deepface==0.0.89
+opencv-python==4.9.0.80
+pillow==10.2.0
+tensorflow==2.15.0
+
+# Cryptography & Security
+cryptography==42.0.1
+pyjwt==2.8.0
+passlib==1.7.4
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+
+# Redis
+redis==5.0.1
+hiredis==2.3.2
+
+# Email
+aiosmtplib==3.0.1
+email-validator==2.1.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP Client
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+faker==22.6.0
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Visualization & Plotting
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Hashing
+pysha3==1.0.2
